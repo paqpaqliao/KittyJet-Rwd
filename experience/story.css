@@ -1,0 +1,199 @@
+
+/* bookmark ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Main_tab {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.Main_tab li {
+	width: 140px;
+	height: 78px;
+	display: inline-block;
+	margin: 0 -4px 0 0;
+	cursor: pointer;
+	background: url(images/pg01_bt01.gif) no-repeat;
+}
+
+.Main_tab .T01 {
+	width: 144px;
+}
+.Main_tab .T01.hover {
+	width: 144px;
+	background: url(images/pg01_bt01_f2.gif) no-repeat;
+}
+.Main_tab .T01.active {
+	width: 144px;
+	background: url(images/pg01_bt01_f3.gif) no-repeat;
+}
+
+.Main_tab .T02 {
+	background-position: -144px 0;
+}
+.Main_tab .T02.hover {
+	background: url(images/pg01_bt01_f2.gif) no-repeat -144px 0;
+}
+.Main_tab .T02.active {
+	background: url(images/pg01_bt01_f3.gif) no-repeat -144px 0;
+}
+
+.Main_tab .T03 {
+	background-position: -284px 0;
+}
+.Main_tab .T03.hover {
+	background: url(images/pg01_bt01_f2.gif) no-repeat -284px 0;
+}
+.Main_tab .T03.active {
+	background: url(images/pg01_bt01_f3.gif) no-repeat -284px 0;
+}
+
+.Main_tab .T04 {
+	background-position: -424px 0;
+}
+.Main_tab .T04.hover {
+	background: url(images/pg01_bt01_f2.gif) no-repeat -424px 0;
+}
+.Main_tab .T04.active {
+	background: url(images/pg01_bt01_f3.gif) no-repeat -424px 0;
+}
+
+
+.Main_tab .T05 {
+	background-position: -564px 0;
+}
+.Main_tab .T05.hover, .Main_tab .T05.active {
+	background: url(images/pg01_bt01_f2.gif) no-repeat -564px 0;
+}
+.Main_tab .T05.active {
+	background: url(images/pg01_bt01_f3.gif) no-repeat -564px 0;
+}
+
+.Main_tab .T06 {
+	background-position: -708px 0;
+}
+.Main_tab .T06.hover, .Main_tab .T06.active {
+	background: url(images/pg01_bt01_f2.gif) no-repeat -708px 0;
+}
+.Main_tab .T06.active {
+	background: url(images/pg01_bt01_f3.gif) no-repeat -708px 0;
+}
+
+
+
+@media (min-width: 0 ) and (max-width: 1280px){
+	
+	.Main_tab {
+		padding: 20px 0 0 0;
+		text-align: center;
+		display: none;
+	}
+
+}
+
+
+.SelectBox {
+    width: 500px;
+    display: none;
+    margin: 35px auto 0 auto;
+    background: url(images/pad/pg01_pic01.gif) no-repeat left;
+	padding: 0 0 0 65px;
+	box-sizing: border-box;
+}
+
+@media (min-width: 768px ) and (max-width: 1280px){
+
+    .SelectBox {
+        width: 500px;
+        display: block;
+        margin: 35px auto 0 auto;
+        background: url(images/pad/pg01_pic01.gif) no-repeat left;
+	    padding: 0 0 0 65px;
+	    box-sizing: border-box;
+    }
+}
+
+@media (min-width: 421px ) and (max-width: 767px){
+
+    .SelectBox {
+        width: 60%;
+		min-width: 290px;
+        display: block;
+        margin: 10px auto 0 auto;
+        background: none;
+	    padding: 0 0 0 0;
+	    box-sizing: border-box;
+		border: 1px solid #7FB9ED;
+    }
+}
+
+@media (min-width: 0 ) and (max-width: 420px){
+
+    .SelectBox {
+		max-width: 290px;
+        display: block;
+        margin: 10px auto 0 auto;
+        background: none;
+	    padding: 0 0 0 0;
+	    box-sizing: border-box;
+		border: 1px solid #7FB9ED;
+    }
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Airplane_Detail {
+	width: 100%;
+	max-width: 988px;
+	padding: 50px 0 10px 0;
+}
+
+.Airplane_Detail > div {
+	display: none;
+}
+
+.Airplane_Detail img {
+	width: 100%;
+	max-width: 988px;
+	height: auto;
+	margin: 0 0 30px 0;
+}
+
+.Airplane_Detail .Cnt {
+	
+	width: 666px;
+	font-family: 微軟正黑體, Microsoft JhengHei;
+	font-size: 19px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+@media (min-width: 0 ) and (max-width: 560px){
+    .Airplane_Detail .Cnt {
+	
+	    width: 80%;
+	    font-family: 微軟正黑體, Microsoft JhengHei;
+	    font-size: 16px;
+	    line-height: 24px;
+	    text-align: center;
+	    margin: 0 auto;
+    }
+}
+
+@media (min-width: 560px ) and (max-width: 767px){
+    .Airplane_Detail .Cnt {
+	
+	    width: 80%;
+	    font-family: 微軟正黑體, Microsoft JhengHei;
+	    font-size: 19px;
+	    line-height: 30px;
+	    text-align: center;
+	    margin: 0 auto;
+    }
+}
+
+
+

@@ -1,0 +1,110 @@
+
+.PageTitleBox {
+	max-width: 941px;
+	height: 68px;
+	margin: 45px 0 0 0;
+	text-align: right;
+	background: url(images/pg03_title.gif) no-repeat left;
+}
+@media (min-width: 661px ) and (max-width: 768px){
+
+    .PageTitleBox {
+	    max-width: 90%;
+	    height: 68px;
+	    margin: 45px auto 0 auto;
+	    background: url(images/pg03_title.gif) no-repeat;
+	    overflow: hidden;
+    }
+}
+@media (min-width: 0 ) and (max-width: 660px){
+
+    .PageTitleBox {
+	    width: 300px;
+	    height: 105px;
+	    margin: 31px auto 40px auto;
+	    background: url(images/mobile/pg03_title.gif) no-repeat left;
+    }
+}
+
+
+/* Content ------------------------------------------------------------------------------------------------------------------------------------ */
+
+#Marquee {
+	overflow: hidden;
+	width: 924px;
+}
+#Marquee img {
+	width: 308px;
+	height: 225px;
+}
+
+@media (min-width: 768px ) and (max-width: 1280px){
+
+	#Marquee {
+		overflow: hidden;
+		width: 616px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 0 ) and (max-width: 767px){
+
+	#Marquee {
+		overflow: hidden;
+		width: 308px;
+		margin: 0 auto;
+	}
+}
+
+
+
+.CabinTxt {
+	max-width: 930px;	
+	width: 100%;
+	padding: 28px 0 0 0 ;
+	font-family: 微軟正黑體, Microsoft JhengHei;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0 0 45px 0;
+}
+
+.StartBt {
+	display: block;
+	width: 345px;
+	height: 69px;
+	background:url(../experience/images/pg03_bt_01.png) no-repeat;
+	margin: 0 auto 20px auto;
+}
+.StartBt:hover {
+	background:url(../experience/images/pg03_bt_01.png) no-repeat 0 -69px;
+}
+
+
+
+@media (min-width: 0 ) and (max-width: 768px){
+
+	.CabinTxt {
+		max-width: 550px;	
+		width: 80%;
+		padding: 28px 0 0 0 ;
+		font-family: 微軟正黑體, Microsoft JhengHei;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 22px;
+		margin: 0 auto 45px auto;
+	}
+
+	.StartBt {
+		display: block;
+		width: 283px;
+		height: 57px;
+		background:url(../experience/images/mobile/pg03_bt_01.png) no-repeat;
+		margin: 0 auto 20px auto;
+	}
+	.StartBt:hover {
+		background:url(../experience/images/mobile/pg03_bt_01.png) no-repeat 0 -57px;
+	}
+
+}
+

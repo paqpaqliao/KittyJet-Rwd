@@ -1,0 +1,722 @@
+	
+
+/* Block 01 -------------------------------------------------------------------------------------------------------------------------------------*/
+
+.IndexOutFrame {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#ShowTopPic {
+	width: 100%;
+	height: 40px;
+	background: url(images/mobile/bg_pic01.png) no-repeat;
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+}
+#ShowBottomPic {
+	width: 100%;
+	height: 80px;
+	background: url(images/bg_pic02.png) no-repeat;
+	position: absolute;
+	z-index: 9999;
+	top: -79px;
+	left: 0;
+	display: none;
+}
+
+#flexslider_model01 {
+    display: none;
+
+}
+#flexslider_model01_mb {
+    display: block;
+}
+
+
+
+/* Block 02 - News -------------------------------------------------------------------------------------------------------------------------------------*/
+
+.NewsFrame {
+	width: 100%;
+	
+	margin: 0 auto;
+	padding: 100px 0 50px 0;
+	background: #AFD8EB;
+}
+
+.NewsBox {
+	width: 74%;
+
+	background: #f09bbb;
+	background: -moz-linear-gradient(top,  #f09bbb 0%, #f6b9cf 30%, #f6b9cf 70%, #f6b9cf 70%, #f09bbb 100%);
+	background: -webkit-linear-gradient(top,  #f09bbb 0%,#f6b9cf 30%,#f6b9cf 70%,#f6b9cf 70%,#f09bbb 100%);
+	background: linear-gradient(to bottom,  #f09bbb 0%,#f6b9cf 30%,#f6b9cf 70%,#f6b9cf 70%,#f09bbb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09bbb', endColorstr='#f09bbb',GradientType=0 );	
+	
+	border-radius: 30px;
+	padding: 55px 6% 35px 6%;
+	margin: 0 auto;
+}
+.News_DatumPoint {
+    width: 100%;
+	height: 0;
+	position: relative;
+	z-index: 9000;
+}
+.News_Title {
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	top: -45px;
+	background: url(images/mobile/title_pic01.png) no-repeat center ;
+}
+
+@media (min-width: 0 ) and (max-width: 480px){
+
+.NewsBox {
+	width: 74%;
+
+	background: #f09bbb;
+	background: -moz-linear-gradient(top,  #f09bbb 0%, #f6b9cf 30%, #f6b9cf 70%, #f6b9cf 70%, #f09bbb 100%);
+	background: -webkit-linear-gradient(top,  #f09bbb 0%,#f6b9cf 30%,#f6b9cf 70%,#f6b9cf 70%,#f09bbb 100%);
+	background: linear-gradient(to bottom,  #f09bbb 0%,#f6b9cf 30%,#f6b9cf 70%,#f6b9cf 70%,#f09bbb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09bbb', endColorstr='#f09bbb',GradientType=0 );	
+	
+	border-radius: 30px;
+	padding: 25px 6% 35px 6%;
+	margin: 0 auto;
+}
+.News_DatumPoint {
+    width: 100%;
+	height: 10px;
+	position: relative;
+	z-index: 9000;
+}
+.News_Title {
+	width: 100%;
+	height: 90px;
+	position: none;
+	top: -85px;
+	background: url(images/mobile/title_pic01.png) no-repeat center ;
+}
+
+}
+
+
+.ViewNews_Bt01 {
+	width: 108px;
+	height: 34px;
+	display: block;
+	background: url(images/mobile/button_02.png) no-repeat;
+	float: right;
+	margin: 0 0 15px 0;
+}
+.ViewNews_Bt01:hover {
+	background: url(images/mobile/button_02.png) no-repeat 0 -35px;
+}
+
+.NewsBox_L {
+	width: 100%;
+	float: left;
+}
+
+.NewsSlidesBox {
+	width: 84%;
+	max-width: 580px;
+	height: auto;
+	padding: 15px 15px;
+	background: #FFFFFF;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+@media (min-width: 0 ) and (max-width: 480px){
+
+	.NewsSlidesBox {
+		width: 88%;
+		max-width: 580px;
+		height: auto;
+		padding: 12px 12px;
+		background: #FFFFFF;
+		border-radius: 12px;
+		margin: 0 auto;
+
+	}
+
+}
+
+.NewsBox_R {
+	width: 100%;
+	float: right;
+	padding: 35px 0 0 0 ;
+}
+
+.NewsList {
+	width: 100%;
+	font-family: 微軟正黑體, "Microsoft JhengHei";
+	font-weight: bold;
+	font-size: 13px;
+}
+.NewsList li {
+	width: 100%;
+	height: 48px;
+	line-height: 46px;
+	margin: 0 0 11px 0;
+	background: #FBE1EB;
+	border-radius: 15px;
+}
+.NewsList .NS_ttl {
+	padding: 0 0 0 17px;
+	display: inline-block;
+	width: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+
+
+/* Block 03 - Aircraft Select  -------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.Airbus_Select {
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+}
+.Airbus_Block01 {
+	width: 535px;
+	margin: 0 auto;
+}
+.Airbus_Block02 {
+	width: 535px;
+	margin: 0 auto;
+}
+
+.Airbus_Select ul {
+	letter-spacing: -4px;
+	
+}
+.Airbus_Select ul li {
+	width: 174px; 
+	height: 195px;
+	float: left;
+	display: block;
+	cursor: pointer;
+}
+
+.Airbus_Select li.Select01 {
+	 background: url(images/bt_pic01.png) no-repeat ; 
+}
+.Airbus_Select li.Select01:Hover, li.Select01.Tag {
+	 background: url(images/bt_pic01_f2.png) no-repeat ; 
+}
+
+.Airbus_Select li.Select02 {
+	 background: url(images/bt_pic01.png) -174px 0 no-repeat ; 
+}
+.Airbus_Select li.Select02:Hover, li.Select02.Tag {
+	 background: url(images/bt_pic01_f2.png) -174px 0 ; 
+}
+
+.Airbus_Select li.Select03 {
+	 background: url(images/bt_pic01.png) -348px 0 no-repeat ; 
+}
+.Airbus_Select li.Select03:Hover, li.Select03.Tag {
+	 background: url(images/bt_pic01_f2.png) -348px 0 ; 
+}
+
+.Airbus_Select li.Select04 {
+	 background: url(images/bt_pic01.png) -522px 0 no-repeat ; 
+}
+.Airbus_Select li.Select04:Hover, li.Select04.Tag {
+	 background: url(images/bt_pic01_f2.png) -522px 0 ; 
+}
+
+.Airbus_Select li.Select05 {
+	 background: url(images/bt_pic01.png) -696px 0 no-repeat ; 
+}
+.Airbus_Select li.Select05:Hover, li.Select05.Tag {
+	 background: url(images/bt_pic01_f2.png) -696px 0 ; 
+}
+
+.Airbus_Select li.Select06 {
+	 background: url(images/bt_pic01.png) -870px 0 no-repeat ; 
+}
+.Airbus_Select li.Select06:Hover, li.Select06.Tag {
+	 background: url(images/bt_pic01_f2.png) -870px 0 ; 
+}
+
+.Airbus_Select li.Select07 {
+	 background: url(images/bt_pic01.png) -1044px 0 no-repeat ; 
+}
+.Airbus_Select li.Select07:Hover, li.Select07.Tag {
+	 background: url(images/bt_pic01_f2.png) -1044px 0 ; 
+}
+
+
+
+
+/* Block 04 - Aircraft Show  ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.AircraftFrame {
+	width: 100%;
+	margin: 0 auto;
+	background: #AFD8EB;
+}
+.AircraftBox {
+	height: 695px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: none;
+}
+.AircraftBox > div {
+	width: 1904px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.Aircraft_Show1, .Aircraft_Show2, .Aircraft_Show3, .Aircraft_Show4, .Aircraft_Show5, .Aircraft_Show6, .Aircraft_Show7 {
+	position: relative;
+	opacity: 0;
+	left: 1904px;
+	height: 695px;
+	background-position: top center;
+}
+
+.Aircraft_Show1 {
+	background: url(images/img03/pic01.png) no-repeat;
+}
+.Aircraft_Show2 {
+	background: url(images/img03/pic02.png) no-repeat; 
+}
+.Aircraft_Show3 {
+	background: url(images/img03/pic03.png) no-repeat; 
+}
+.Aircraft_Show4 {
+	background: url(images/img03/pic04.png) no-repeat; 
+}
+.Aircraft_Show5 {
+	background: url(images/img03/pic05.png) no-repeat; 
+}
+.Aircraft_Show6 {
+	background: url(images/img03/pic06.png) no-repeat; 
+}
+.Aircraft_Show7 {
+	background: url(images/img03/pic07.png) no-repeat; 
+}
+
+.ViewStoryBox {
+	display: none;
+	position: relative;
+	top: -127px;
+}
+.ViewStory_Bt {
+	width: 386px;
+	height: 78px;
+	display: block;
+	background: url(images/button_03.png) no-repeat;
+	margin: 0 auto;
+}
+.ViewStory_Bt:hover {
+	background: url(images/button_03.png) no-repeat 0 -79px;
+}
+
+
+
+/* Block 05 - Flight Route ------------------------------------------------------------------------------------------------------------------------------------- */
+
+.RouteTopPic {
+	width: 100%;
+	height: 130px;
+	background: url(images/mobile/bg_pic04_01.gif) no-repeat top center;
+}
+.RouteBottomPic {
+	width: 100%;
+	height: 130px;
+	background: url(images/mobile/bg_pic04_03.gif) no-repeat top center;
+}
+
+.RouteFrame {
+	width: 100%;
+	margin: 0 auto;
+	background: #FFF4A6;
+}
+
+.RouteTitle {
+	width: 254px;
+	height: 56px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	background: url(images/mobile/title_pic02.png) no-repeat center ;
+}
+
+
+.RouteBox {
+	width: 100%;
+	margin: 0 auto;
+}
+.RouteBox img {
+	width: 90%;
+	max-width: 620px;
+}
+.Route01 {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.Route02 {
+	width: 100%;
+	float: right; 
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+ 
+
+/* Block 06 ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.GoodsFrame {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 100px 0;
+	background: #AFD8EB;
+}
+.GoodsBox {
+	width: 100%;
+	padding: 50px 0 0 0;
+	margin: 0 auto;
+}
+.GoodsBox_L {
+	width: 100%;
+	max-width: 724px;
+	margin: 0 auto 70px auto;
+	float: none;
+	text-align: center;
+}
+.GoodsBox_R {
+	width: 100%;
+	max-width: 598px;
+	float: none;
+	margin: 0 auto;
+}
+
+
+
+/* Block 06 - Flight Route ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.AmenityTitle {
+	width: 380px;
+	height: 56px;
+	margin: 0 auto 20px auto;
+	background: url(images/mobile/title_pic03.png) no-repeat left top;
+}
+
+.ViewMore_Bt01 {
+	width: 115px;
+	height: 36px;
+	margin: 8px 0 0 0;
+	display: block;
+	background: url(images/mobile/button_04.png) no-repeat;
+	float: right;
+}
+.ViewMore_Bt01:hover {
+	background: url(images/mobile/button_04.png) no-repeat 0 -37px;
+}
+
+@media (min-width: 0 ) and (max-width: 400px){
+
+.AmenityTitle {
+	width: 254px;
+	height: 56px;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+	background: url(images/mobile/title_pic03.png) no-repeat left top; 
+	text-align: center; 
+}
+
+.ViewMore_Bt01 {
+	width: 127px;
+	height: 40px;
+	margin: 0 auto;
+	display: block;	
+	background: url(images/button_04.png) no-repeat;
+	float: none;
+}
+.ViewMore_Bt01:hover {
+	background: url(images/button_04.png) no-repeat 0 -41px;
+}
+}
+
+.Amenity {
+	width: 90%;
+	margin: 10px auto 0 auto;
+}
+.Amenity li {
+	width: 185px;
+	height: 185px;
+	margin: 10px 11px 9px 10px;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	cursor: cursor;
+	
+	font-family: 微軟正黑體, "Microsoft JhengHei";
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.Amenity li img {
+	width: 185px;
+	height: 185px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Amenity li:hover img {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.A_HoverBg {
+	width: 185px;
+	height: 30px;
+	top: -30px;
+	left: 0;
+	
+	position: relative;
+	background: url(experience/images/mobile/pg04_pic03.png) no-repeat top right ; 
+	opacity: 1;
+	
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Amenity li:hover .A_HoverBg {
+	opacity: 1;
+}
+.Amenity li .A_Text {
+	position: relative;
+    top: -185px;
+	opacity: 1;
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Amenity li:hover .A_Text {
+    opacity: 1;
+    top: -185px;
+}
+.A_Text span {
+	display: block;
+}
+.A_Year {
+	width: 53px;
+	font-size: 12px;
+	line-height: 30px;
+	border-bottom: none;
+	margin: 0 0 0 10px;
+	position: absolute;
+	top: -25px;
+}
+.A_Name {
+	font-size: 13px;
+	line-height: 30px;
+	margin: 0 0 0 10px;	
+	position: absolute;
+	top: 125px;		
+}
+
+
+@media (min-width: 0 ) and (max-width: 480px){
+
+.Amenity {
+	width: 90%;
+	margin: 10px auto 0 auto;
+}
+.Amenity li {
+	width: 255px;
+	height: 255px;
+	margin: 10px 11px 9px 10px;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	cursor: default;
+	
+	font-family: 微軟正黑體, "Microsoft JhengHei";
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.Amenity li img {
+	width: 255px;
+	height: 255px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Amenity li:hover img {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.A_HoverBg {
+	width: 255px;
+	height: 30px;
+	top: -30px;
+	left: 0;
+	
+	position: relative;
+	background: url(experience/images/mobile/pg04_pic03.png) no-repeat top right ; 
+	opacity: 1;
+	
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Amenity li:hover .A_HoverBg {
+	opacity: 1;
+}
+.Amenity li .A_Text {
+	position: relative;
+    top: -255px;
+	opacity: 1;
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Amenity li:hover .A_Text {
+    opacity: 1;
+    top: -255px;
+}
+.A_Text span {
+	display: block;
+}
+.A_Year {
+	width: 53px;
+	font-size: 12px;
+	line-height: 30px;
+	border-bottom: none;
+	margin: 0 0 0 10px;
+	position: absolute;
+	top: -25px;
+}
+.A_Name {
+	font-size: 13px;
+	line-height: 30px;
+	margin: 0 0 0 10px;	
+	position: absolute;
+	top: 195px;		
+}
+
+}
+
+
+
+
+/* Block 07 - Flight Route ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.ProductTitle {
+	width: 380px;
+	height: 56px;
+	margin: 0 auto 20px auto;
+	background: url(images/mobile/title_pic04.png) no-repeat left top;
+}
+
+.ViewMore_Bt02 {
+	width: 115px;
+	height: 36px;
+	margin: 8px 0 0 0;
+	display: block;
+	background: url(images/mobile/button_05.png) no-repeat;
+	float: right;
+}
+.ViewMore_Bt02:hover {
+	background: url(images/mobile/button_05.png) no-repeat 0 -41px;
+}
+
+
+@media (min-width: 0 ) and (max-width: 400px){
+
+.ProductTitle {
+	width: 254px;
+	height: 56px;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+	background: url(images/mobile/title_pic04.png) no-repeat center top; 
+	text-align: center; 
+}
+
+.ViewMore_Bt02 {
+	width: 115px;
+	height: 36px;
+	margin: 0 auto;
+	display: block;	
+	background: url(images/mobile/button_05.png) no-repeat;
+	float: none;
+}
+.ViewMore_Bt02:hover {
+	background: url(images/mobile/button_05.png) no-repeat 0 -37px;
+}
+
+}
+
+.Product {
+	width: 96%;
+	margin: 0 auto;
+	padding: 3% 0;
+	background: url(images/mobile/pic06.png) no-repeat top center;
+	background-size: 100%;
+}
+
+#ProductSlides {
+	width: 92%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 50px 0;
+	background: none;
+}
+
+#flexslider_model03 {
+    display: none;
+}
+#flexslider_model03_mb {
+    display: block;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------*/
+
+.IndexFooterTopClouds {
+	width: 100%;
+	height: 67px;
+	position: absolute;
+	top: -101px;
+	margin: 0 auto 0 auto;
+	padding: 16px 0 0 0;
+	background: none;
+}

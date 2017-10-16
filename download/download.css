@@ -1,0 +1,102 @@
+
+.Content_Frame { 
+    width: 100%;
+	margin: 0 auto;
+	background: url(images/bg_pic01.gif) repeat-y top center;
+}
+@media (min-width: 0 ) and (max-width: 1280px){
+    .Content_Frame { 
+        width: 100%;
+	    margin: 0 auto;
+	    background: none;
+    }
+}
+
+
+.Breadcrumb {
+    width: 100%;
+	margin: 0 0 35px 0;
+	background: #C5BADB;
+}
+@media (min-width: 0 ) and (max-width: 1024px){
+
+.Breadcrumb {
+    width: 100%;
+	margin: 0;
+	background: #C5BADB;
+	display: noen; 
+}
+
+}
+
+.PageContent {
+	padding: 0 0 0 38px;
+}
+
+@media (min-width: 1025px ) and (max-width: 1280px){
+
+	.PageContent {
+		padding: 0 0 0 70px;
+	}
+}
+
+@media (min-width: 0 ) and (max-width: 1024px){
+
+	.PageContent {
+		padding: 0;
+	}
+}
+
+
+.PageTitleLine {
+    width: 100%;
+	max-width: 941px;
+	height: 5px;
+	margin: 0 0 45px 0;
+	border-radius:5px;
+	background-color: #A591C3;
+}
+@media (min-width: 661px ) and (max-width: 768px){
+
+    .PageTitleLine {
+        width: 90%;
+	    max-width: 941px;
+	    height: 5px;
+	    margin: 0 auto 45px auto;
+	    border-radius: 5px;
+	    background-color: #A591C3;
+    }
+}
+@media (min-width: 0 ) and (max-width: 660px){
+
+    .PageTitleLine {
+        display: none;
+    }
+
+}
+
+
+/* Left Menu  -------------------------------------------------------------------------------------------------------------------------------------*/
+
+.LeftMenu {
+	width: 217px;
+	height: 301px;
+    padding: 139px 0 0 0;
+	margin: 25px 0 150px 0;
+    background: url(../download/images/Menu_pic01.gif) no-repeat ;
+}
+
+.LeftMenu .Main a {
+	display: block;
+	width: 217px;
+	height: 42px;
+	margin: 0 0 22px 0;
+}
+
+
+.Main .screensaver:hover {
+	background: url(../download/images/Menu_pic02.gif) no-repeat ;
+}
+.Main .wallpaper:hover {
+	background: url(../download/images/Menu_pic03.gif) no-repeat ;
+}

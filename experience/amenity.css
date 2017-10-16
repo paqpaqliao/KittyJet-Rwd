@@ -1,0 +1,485 @@
+
+.PageTitleBox {
+	max-width: 941px;
+	height: 39px;
+	margin: 45px 0 0 0;
+	padding: 29px 0 0 0;
+	text-align: right;
+	background: url(images/pg04_title.gif) no-repeat;
+} 
+
+@media (min-width: 661px ) and (max-width: 768px){
+
+    .PageTitleBox {
+	    width: 90%;
+	    height: 39px;
+	    margin: 45px auto 0 auto;
+	    padding: 29px 0 0 0;
+	    text-align: right;
+	    background: url(images/pg04_title.gif) no-repeat;	
+    }
+}
+@media (min-width: 0 ) and (max-width: 660px){
+
+    .PageTitleBox {
+	    width: 300px;
+	    height: 105px;
+	    margin: 31px auto 150px auto;
+	    background: url(images/mobile/pg04_title.gif) no-repeat left;
+		
+    }
+}
+
+/* bookmark -------------------------------------------------------------------------------------------------------------------------- */
+
+.Main_tab li {
+	width: 121px;
+	height: 39px;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+}
+
+.Main_tab .T01 {
+	background: url(images/pg04_pic01.png) no-repeat;
+}
+.Main_tab .T01.hover, .Main_tab .T01.active {
+	background: url(images/pg04_pic01_f2.png) no-repeat;
+}
+
+.Main_tab .T02 {
+	background: url(images/pg04_pic01.png) no-repeat -125px 0;
+}
+.Main_tab .T02.hover, .Main_tab .T02.active  {
+	background: url(images/pg04_pic01_f2.png) no-repeat -125px 0;
+}
+
+
+
+
+@media (min-width: 661px ) and (max-width: 767px){
+
+    .Main_tab {	
+	    padding: 75px 0 50px 0;
+	    text-align: center;
+    }
+    .Main_tab li {
+	    width: 121px;
+	    height: 44px;
+	    display: inline-block;
+	    margin: 0;
+	    cursor: pointer;
+    }
+
+    .Main_tab .T01 {
+	    background: url(images/mobile/pg04_pic01.png) no-repeat;
+    }
+    .Main_tab .T01.hover, .Main_tab .T01.active {
+	    background: url(images/mobile/pg04_pic01_f2.png) no-repeat;
+    }
+
+    .Main_tab .T02 {
+	    background: url(images/mobile/pg04_pic01.png) no-repeat -125px 0;
+    }
+    .Main_tab .T02.hover, .Main_tab .T02.active  {
+	    background: url(images/mobile/pg04_pic01_f2.png) no-repeat -125px 0;
+    }
+
+}
+
+@media (min-width: 0 ) and (max-width: 660px){
+
+    .Main_tab {	
+	    padding: 120px 0 50px 0;
+	    text-align: center;
+    }
+    .Main_tab li {
+	    width: 121px;
+	    height: 44px;
+	    display: inline-block;
+	    margin: 0;
+	    cursor: pointer;
+    }
+
+    .Main_tab .T01 {
+	    background: url(images/mobile/pg04_pic01.png) no-repeat;
+    }
+    .Main_tab .T01.hover, .Main_tab .T01.active {
+	    background: url(images/mobile/pg04_pic01_f2.png) no-repeat;
+    }
+
+    .Main_tab .T02 {
+	    background: url(images/mobile/pg04_pic01.png) no-repeat -125px 0;
+    }
+    .Main_tab .T02.hover, .Main_tab .T02.active  {
+	    background: url(images/mobile/pg04_pic01_f2.png) no-repeat -125px 0;
+    }
+
+}
+
+
+
+
+/* bookmark -------------------------------------------------------------------------------------------------------------------------- */
+
+.Second_tab {
+	width: 421px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media (min-width: 443px ) and (max-width: 768px){
+
+    .Second_tab {
+    	width: 421px;
+	    margin: 150px auto 0 auto;
+	    text-align: center;
+    }
+}
+
+@media (min-width: 0 ) and (max-width: 442px){
+
+    .Second_tab {
+    	width: 220px;
+	    margin: 0 auto;
+	    text-align: center;
+    }
+
+}
+
+.Second_tab li {
+	width: 101px;
+	height: 41px;
+	margin: 0 1px 0 0;
+	display: inline-block;
+	cursor: pointer;
+}
+.Second_tab .T01 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat;
+}
+.Second_tab .T01.hover, .Second_tab .T01.active {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat;
+}
+
+.Second_tab .T02 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat -106px 0;
+}
+.Second_tab .T02.hover, .Second_tab .T02.active  {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat -106px 0;
+}
+
+.Second_tab .T03 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat -212px 0;
+}
+.Second_tab .T03.hover, .Second_tab .T03.active {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat -212px 0;
+}
+
+.Second_tab .T04 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat -318px 0;
+}
+.Second_tab .T04.hover, .Second_tab .T04.active {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat -318px 0;
+}
+
+
+
+/* Content ------------------------------------------------------------------------------------------------------------------------------------ */
+
+.Showcase {
+	width: 941px;
+	margin: 0 0 50px 0;
+	text-align: left;
+}
+.Showcase li {
+	width: 300px;
+	height: 300px;
+	margin: 3px 3px 3px 6px;
+	display: inline-block;
+	overflow: hidden;
+		
+	font-family: 微軟正黑體, "Microsoft JhengHei";
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.Showcase li img {
+	width: 300px;
+	height: 300px;
+    -webkit-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.Showcase li:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.15);
+    transform: scale(1.1, 1.1);
+}
+
+.A_HoverBg {
+	width: 260px;
+	height: 260px;
+	top: -280px;
+	left: 20px;
+	
+	position: relative;
+	background-color: rgba(255,255,255,0.6);
+	opacity: 0;
+	
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+.Showcase li:hover .A_HoverBg {
+	opacity: 1;
+}
+.Showcase li .A_Text {
+	position: relative;
+    top: -430px;
+	opacity: 0;
+
+    -webkit-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    transition: opacity 0.5s ease-out, top 0.5s ease-out;
+}
+.Showcase li:hover .A_Text {
+    opacity: 1;
+    top: -450px;
+}
+.Showcase li: {
+    opacity: 1;
+    top: -450px;
+}
+
+.A_Text span {
+	display: block;
+}
+.A_Year {
+	width: 160px;
+	font-size: 15px;
+	line-height: 30px;
+
+	margin: 0 auto;
+}
+.A_Line {
+	width: 80px;
+	height: 1px;
+	background: #000;
+	margin: 0 auto 2px auto;
+}
+.A_Name {
+    width: 230px;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+
+@media (min-width: 768px ) and (max-width: 1280px){
+
+	.Showcase {
+		width: 670px;
+		margin: 0 auto 100px auto;
+		text-align: center;
+	}
+	.Showcase li {
+		width: 210px;
+		height: 210px;
+		margin: 3px 4px 3px 6px;
+		display: inline-block;
+		overflow: hidden;
+	
+		font-family: 微軟正黑體, "Microsoft JhengHei";
+		font-weight: bold;
+		color: #000;
+		text-align: center;
+	}
+	.Showcase li img {
+		width: 210px;
+		height: 210px;
+    	-webkit-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    	-moz-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    	-ms-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    	-o-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    	transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
+	.Showcase li:hover img {
+    	-webkit-transform: scale(1.1, 1.1);
+  	 	 -moz-transform: scale(1.1, 1.1);
+    	-ms-transform: scale(1.1, 1.1);
+    	-o-transform: scale(1.1, 1.15);
+    	transform: scale(1.1, 1.1);
+	}
+
+	.A_HoverBg {
+		width: 182px;
+		height: 182px;
+		top: -196px;
+		left: 14px;
+	
+		position: relative;
+		background-color: rgba(255,255,255,0.6);
+		opacity: 0;
+	
+    	-webkit-transition: opacity 0.5s ease-out;
+    	-moz-transition: opacity 0.5s ease-out;
+    	-o-transition: opacity 0.5s ease-out;
+    	transition: opacity 0.5s ease-out;
+	}
+	.Showcase li:hover .A_HoverBg {
+		opacity: 1;
+	}
+	.Showcase li .A_Text {
+		position: relative;
+    	top: -310px;
+		opacity: 0;
+
+    	-webkit-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    	-moz-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    	-o-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    	transition: opacity 0.5s ease-out, top 0.5s ease-out;
+	}
+	.Showcase li:hover .A_Text {
+    	opacity: 1;
+    	top: -325px;
+	}
+	.Showcase li: {
+    	opacity: 1;
+    	top: -325px;
+	}
+
+	.A_Text span {
+		display: block;
+	}
+	.A_Year {
+		width: 80px;
+		font-size: 15px;
+		line-height: 30px;
+		border-bottom: 1px solid #000;
+		margin: 0 auto;
+	}
+	.A_Line {
+		width: 70px;
+		height: 1px;
+		background: #000;
+		margin: 0 auto 2px auto;
+	}	
+	.A_Name {
+		width: 170px;
+		font-size: 14px;
+		line-height: 30px;
+		margin: 0 auto;
+	}
+
+}
+
+
+
+@media (min-width: 0 ) and (max-width: 767px){
+
+	.Showcase {
+		width: 90%;
+		margin: 0 auto 100px auto;
+		text-align: center;
+	}
+	.Showcase li {
+		width: 255px;
+		height: 255px;
+		margin: 4px 4px 3px 6px;
+		display: inline-block;
+		overflow: hidden;
+	
+		font-family: 微軟正黑體, "Microsoft JhengHei";
+		font-weight: bold;
+		color: #000;
+		text-align: left;
+	}
+	.Showcase li img {
+		width: 255px;
+		height: 255px;
+    	-webkit-transform: none;
+    	-moz-transform: none;
+    	-ms-transform: none;
+    	-o-transform: none;
+    	transform: none;
+	}
+	.Showcase li:hover img {
+    	-webkit-transform: none;
+    	-moz-transform: none;
+    	-ms-transform: none;
+    	-o-transform: none;
+    	transform: none;
+	}
+
+	.A_HoverBg {
+		width: 255px;
+		height: 45px;
+		top: -45px;
+		left: 0px;
+		position: relative;
+		background: url(images/mobile/pg04_pic03.png) no-repeat top right ; 
+		opacity: 1;
+	
+    	-webkit-transition: none;
+    	-moz-transition: none;
+    	-o-transition: none;
+    	transition: none;
+	}
+
+	.Showcase li:hover .A_HoverBg {
+		opacity: 1;
+	}
+	.Showcase li .A_Text {
+		position: relative;
+    	top: -300px;
+		opacity: 1;
+
+    	-webkit-transition: none;
+    	-moz-transition: none;
+    	-o-transition: none;
+    	transition: none;
+	}
+	.Showcase li:hover .A_Text {
+    	opacity: 1;
+    	top: -300px;
+	}
+	.Showcase li: {
+    	opacity: 1;
+    	top: -245px;
+	}
+
+	.A_Text span {
+		display: block;
+	}
+	.A_Year {
+		font-size: 13px;
+		line-height: 20px;
+		border-bottom: none;
+		margin: 0 0 0 15px;
+		text-align: left;	
+		position: absolute;
+		top: 10px;
+	}
+	.A_Line {
+		width: 70px;
+		height: 1px;
+		background: #000;
+		margin: 0 auto 2px auto;
+		opacity: 0;
+	}	
+	.A_Name {
+		font-size: 13px;
+		line-height: 30px;
+		margin: 0 0 0 15px;	
+		position: absolute;
+		top: 215px;
+	}
+
+}
+

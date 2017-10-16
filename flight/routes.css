@@ -1,0 +1,510 @@
+
+.Content_Frame { 
+    width: 100%;
+	margin: 0 auto;
+	background: url(images/bg_pic01.gif) repeat-y top center;
+}
+@media (min-width: 0 ) and (max-width: 1280px){
+    .Content_Frame { 
+        width: 100%;
+	    margin: 0 auto;
+	    background: none;
+    }
+}
+
+
+.Breadcrumb {
+    width: 100%;
+	margin: 0 0 35px 0;
+	background: #71BBE8;
+}
+@media (min-width: 0 ) and (max-width: 1024px){
+
+.Breadcrumb {
+    width: 100%;
+	margin: 0;
+	background: #71BBE8;
+	display: noen; 
+}
+
+}
+
+
+.PageContent {
+	padding: 0 0 0 38px;
+	
+}
+
+@media (min-width: 1025px ) and (max-width: 1280px){
+
+	.PageContent {
+		padding: 0 0 0 70px;
+	}
+}
+
+@media (min-width: 0 ) and (max-width: 1024px){
+
+	.PageContent {
+		padding: 0;
+	}
+}
+
+
+/* Left Menu  -------------------------------------------------------------------------------------------------------------------------------------*/
+
+.LeftMenu {
+	width: 217px;
+	height: 501px;
+    padding: 139px 0 0 0;
+	margin: 0 0 150px 0;
+    background: url(images/Menu_pic04.gif) no-repeat ;
+}
+.LeftMenu .Main a {
+	display: block;
+	width: 217px;
+	height: 42px;
+	margin: 0 0 22px 0;
+}
+
+.Main .Timetable:hover {
+	background: url(images/Menu_pic02.gif) no-repeat ;
+}
+
+.LeftMenu .Second {
+	padding: 49px 0 0 0;
+}
+.LeftMenu .Second a {
+	display: block;
+	width: 217px;
+	height: 34px;
+	margin: 0;
+}
+
+.Second .nrt:hover , .nrt.active { background: url(../flight/images/Menu_pic05.gif) no-repeat ; }
+
+.Second .hou:hover , .hou.active { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -34px; }
+
+.Second .sin:hover , .sin.active { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -68px; }
+
+.Second .par:hover , .par.active { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -102px; }
+
+.Second .hnd:hover , .hnd.active { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -136px; }
+
+.Second .fuk:hover , .fuk.active  { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -170px; }
+
+.Second .icn:hover , .icn.active { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -204px; }
+
+.Second .sha:hover , .sha.active  { background: url(../flight/images/Menu_pic05.gif) no-repeat 0 -238px; }
+
+
+
+
+/* bookmark ------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Main_tab {
+	max-width: 965px;
+	height: 105px;
+	text-align: center;
+}
+
+.Main_tab li {
+	width: 94px;
+	height: 105px;
+	display: inline-block;
+	margin: 0 -4px 0 0;
+	background: url(../flight/images/pg03_bt01.gif) no-repeat;
+}
+
+.Main_tab .T01 {
+	width: 80px;
+}
+.Main_tab .T01.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat;
+}
+
+.Main_tab .T02 {
+	width: 62px;
+	background-position: -80px 0;
+}
+.Main_tab .T02.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -80px 0;
+}
+
+.Main_tab .T03 {
+	width: 109px;
+	background-position: -142px 0;
+}
+.Main_tab .T03.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -142px 0;
+}
+
+.Main_tab .T04 {
+	width: 124px;
+	background-position: -251px 0;
+}
+.Main_tab .T04.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -251px 0;
+}
+
+.Main_tab .T05 {
+	width: 74px;
+	background-position: -375px 0;
+}
+.Main_tab .T05.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -375px 0;
+}
+
+.Main_tab .T06 {
+	width: 97px;
+	background-position: -449px 0;
+}
+.Main_tab .T06.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -449px 0;
+}
+
+.Main_tab .T07 {
+	width: 106px;
+	background-position: -546px 0;
+}
+.Main_tab .T07.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -546px 0;
+}
+
+.Main_tab .T08 {
+	width: 81px;
+	background-position: -652px 0;
+}
+.Main_tab .T08.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -652px 0;
+}
+
+.Main_tab .T09 {
+	width: 75px;
+	background-position: -733px 0;
+}
+.Main_tab .T09.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -733px 0;
+}
+
+.Main_tab .T10 {
+	width: 109px;
+	background-position: -808px 0;
+}
+.Main_tab .T10.active {
+	background: url(../flight/images/pg03_bt01_f3.gif) no-repeat -808px 0;
+}
+
+.Main_tab .T11 {
+	width: 48px;
+	background-position: -917px 0;
+}
+
+
+
+@media (min-width: 0 ) and (max-width: 1280px){
+	
+	.Main_tab {
+		padding: 20px 0 0 0;
+		display: none;
+	}
+
+}
+
+
+.SelectBox {
+    width: 500px;
+    display: none;
+    margin: 35px auto 35px auto;
+    background: url(images/pad/pg01_pic01.gif) no-repeat left;
+	padding: 0 0 0 65px;
+	box-sizing: border-box;
+}
+
+@media (min-width: 768px ) and (max-width: 1280px){
+
+    .SelectBox {
+        width: 500px;
+		height: 53px;
+        display: block;
+        margin: 35px auto 35px auto;
+        background: url(images/pad/pg03_icon01.gif) no-repeat left;
+	    padding: 5px 0 0 55px;
+	    box-sizing: border-box;
+    }
+}
+
+@media (min-width: 421px ) and (max-width: 767px){
+
+    .SelectBox {
+        width: 60%;
+		min-width: 290px;
+        display: block;
+        margin: 10px auto 30px auto;
+        background: none;
+	    padding: 0 0 0 0;
+	    box-sizing: border-box;
+		border: 1px solid #7FB9ED;
+    }
+}
+
+@media (min-width: 0 ) and (max-width: 420px){
+
+    .SelectBox {
+		max-width: 290px;
+        display: block;
+        margin: 10px auto 30px auto;
+        background: none;
+	    padding: 0 0 0 0;
+	    box-sizing: border-box;
+		border: 1px solid #7FB9ED;
+    }
+}
+
+
+
+/* Content ------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Airplane_Detail {
+	font-family: 微軟正黑體, Microsoft JhengHei;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 22px;
+	margin: 0 auto;
+	width: 100%;
+}
+.Airplane_Detail ul {
+	margin: 0 0 50px 0 ;
+	display: none;
+}
+.Airplane_Detail span {
+	display: block;
+}
+
+.Airplane_Detail .Txt {
+	width: 100%;
+	max-width: 510px;
+	padding: 278px 0 30px 420px;
+	margin: 0 0 30px 0;
+}
+.Airplane_Detail .Txt02 {
+	width: 100%;
+	max-width: 510px;
+	padding: 230px 0 30px 420px;
+	margin: 0 0 30px 0;
+}
+
+@media (min-width: 0 ) and (max-width: 1280px){
+
+	.Airplane_Detail {
+		font-family: 微軟正黑體, Microsoft JhengHei;
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 22px;
+		max-width: 636px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.Airplane_Detail ul {
+    	width: 100%;
+		margin: 0 0 50px 0 ;
+		display: none;
+	}
+
+	.Airplane_Detail .Txt {
+		width: 90%;
+		padding: 100% 0 30px 0;
+		margin: 0 auto 30px auto;
+	}
+	.Airplane_Detail .Txt02 {
+		width: 90%;
+		padding: 100% 0 30px 0;
+		margin: 0 auto 30px auto;
+	}
+
+}
+
+
+.Airplane_Detail .Go {
+	width: 218px;
+	float: left;
+	text-align: center;
+}
+.Airplane_Detail .Line {
+	width: 4px;
+	height: 119px;
+	float: left;
+	margin: 2px 22px 0 22px;
+	border-radius: 3px;
+	background: #AFD8EB;
+}
+.Airplane_Detail .Back {
+	width: 218px;
+	float: right;
+	padding: 0 25px 0 0;
+	text-align: center;
+}
+.Airplane_Detail .Place {
+	font-size: 19px;
+	line-height: 26px;
+}
+.Airplane_Detail .Place02 {
+	font-size: 21px;
+	line-height: 26px;
+}
+.Airplane_Detail .Model {
+	font-size: 69px;
+	line-height: 74px;
+	font-family: 微軟正黑體, Microsoft JhengHei;
+}
+.Airplane_Detail .Note {
+	font-size: 12px;
+	margin: 15px 0 0 0;
+}
+.Airplane_Detail .Date {
+	font-size: 17px;
+}
+
+
+@media (min-width: 0 ) and (max-width: 767px){
+
+	.Airplane_Detail .Go {
+		width: 218px;
+		float: none;
+		text-align: center;
+		margin: 0 auto 30px auto;
+	}
+	.Airplane_Detail .Line {
+		float: none;
+		display: none;
+	}
+	.Airplane_Detail .Back {
+		width: 218px;
+		float: none;
+		padding: 0;
+		text-align: center;
+		margin: 20px auto 0 auto;
+	}
+	.Airplane_Detail .Place {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.Airplane_Detail .Place02 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.Airplane_Detail .Model {
+		font-size: 56px;
+		line-height: 56px;
+		font-family: 微軟正黑體, Microsoft JhengHei;
+	}
+	.Airplane_Detail .Note {
+		font-size: 12px;
+		text-align: center;
+		margin: 15px auto 0 auto;
+	}
+	.Airplane_Detail .Date {
+		font-size: 14px;
+		margin: 15px auto 0 auto;
+	}
+
+}
+
+
+
+
+.Airplane01 {
+	min-height: 520px;
+	background: url(../flight/images/pg03_pic01.gif) no-repeat;
+}
+.Airplane02 {
+	min-height: 520px;
+	background: url(../flight/images/pg03_pic02.gif) no-repeat;
+}
+.Airplane03 {
+	min-height: 525px;
+	background: url(../flight/images/pg03_pic03.gif) no-repeat;
+}
+.Airplane04 {
+	min-height: 525px;
+	background: url(../flight/images/pg03_pic04.gif) no-repeat;
+}
+.Airplane05 {
+	min-height: 520px;
+	background: url(../flight/images/pg03_pic05.gif) no-repeat;
+}
+
+.Airplane06 {
+	min-height: 775px;
+	background: url(../flight/images/pg03_pic06.gif) no-repeat;
+}
+.Airplane07 {
+	min-height: 525px;
+	background: url(../flight/images/pg03_pic07.gif) no-repeat;
+}
+.Airplane08 {
+	min-height: 525px;
+	background: url(../flight/images/pg03_pic08.gif) no-repeat;
+}
+.Airplane09 {
+	min-height: 520px;
+	background: url(../flight/images/pg03_pic09.gif) no-repeat;
+}
+.Airplane10 {
+	min-height: 520px;
+	background: url(../flight/images/pg03_pic10.gif) no-repeat;
+}
+
+
+@media (min-width: 0 ) and (max-width: 1280px){
+
+	.Airplane01 {
+		background: url(images/pad/pg03_pic01.gif) no-repeat;
+		background-size: 100%;
+	}
+	.Airplane02 {	
+		background: url(images/pad/pg03_pic02.gif) no-repeat;
+		background-size: 100%;
+	}
+	.Airplane03 {
+		background: url(images/pad/pg03_pic03.gif) no-repeat;
+		background-size: 100%;
+	}
+	.Airplane04 {
+		background: url(images/pad/pg03_pic04.gif) no-repeat;
+		background-size: 100%;	
+	}
+	.Airplane05 {
+		background: url(images/pad/pg03_pic05.gif) no-repeat;
+		background-size: 100%;	
+	}
+	.Airplane05_02 {
+		background: url(images/pad/pg03_pic05_02.gif) no-repeat;
+		background-size: 100%;	
+	}
+
+	.Airplane06 {
+		background: url(images/pad/pg03_pic06.gif) no-repeat;
+		background-size: 100%;	
+	}
+	.Airplane07 {
+		background: url(images/pad/pg03_pic07.gif) no-repeat;
+		background-size: 100%;	
+	}
+	.Airplane08 {
+		background: url(images/pad/pg03_pic08.gif) no-repeat;
+		background-size: 100%;	
+	}
+	.Airplane09 {
+		background: url(images/pad/pg03_pic09.gif) no-repeat;
+		background-size: 100%;	
+	}
+	.Airplane10 {
+		background: url(images/pad/pg03_pic10.gif) no-repeat;
+		background-size: 100%;	
+	}
+
+}
+
+
+

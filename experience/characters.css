@@ -1,0 +1,220 @@
+
+.PageTitleBox {
+	max-width: 941px;
+	height: 68px;
+	margin: 45px 0 0 0;
+	background: url(images/pg02_title.gif) no-repeat;
+	overflow: hidden;
+}
+@media (min-width: 661px ) and (max-width: 768px){
+
+    .PageTitleBox {
+	    max-width: 90%;
+	    height: 68px;
+	    margin: 45px auto 0 auto;
+	    background: url(images/pg02_title.gif) no-repeat;
+	    overflow: hidden;
+    }
+}
+@media (min-width: 0 ) and (max-width: 660px){
+
+    .PageTitleBox {
+	    width: 300px;
+	    height: 105px;
+	    margin: 31px auto 40px auto;
+	    background: url(images/mobile/pg02_title.gif) no-repeat left;
+    }
+}
+
+
+/* Content ------------------------------------------------------------------------------------------------------------------------------------ */
+
+.gridbox {
+	width: 100%;
+	max-width: 958px;
+	position: relative;
+	padding: 0 0 35px 0;
+	text-align: left;
+}
+	
+#gridbox01 {
+    display: block;
+}
+
+#gridbox02 {
+    display: none;
+}
+
+.gridbox li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 6px 15px 7px; 
+	width: 210px;
+	height: 210px;
+}
+.gridbox li a {
+	display: block;
+}
+.gridbox li a > img {
+	border: 1px solid #F0F0F0;
+	cursor: pointer;
+}
+.gridbox .Expand_Frame {
+	position: absolute;
+	left: 7px;
+	display: none; 
+	z-index: 9000;
+}
+.gridbox .Expand {
+	position: relative;
+	width: 851px;
+	padding: 10px 20px 10px 20px; 
+	margin: 15px 0;
+	background: #70C2BE;
+	z-index: 9900;
+	text-align: left;
+
+}
+
+@media (min-width: 1025px ) and (max-width: 1280px){
+
+	.gridbox .Expand_Frame {
+		position: absolute;
+		left: 7px;
+		display: none; 
+		z-index: 9000;
+	}
+	.gridbox .Expand {
+		position: relative;
+		width: 664px;
+		padding: 10px 0 10px 0; 
+		margin: 15px 0;
+		background: #70C2BE;
+		z-index: 9900;
+		overflow: hidden;
+	}
+}
+
+
+@media (min-width: 768px ) and (max-width: 1024px){
+
+	.gridbox {
+		width: 681px;
+		position: none;
+		padding: 0 0 35px 0;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.gridbox .Expand_Frame {
+		position: absolute;
+		left: 7px;
+		display: none; 
+		z-index: 9000;
+	}
+	.gridbox .Expand {
+		position: relative;
+		width: 664px;
+		padding: 10px 0 10px 0; 
+		margin: 15px 0;
+		background: #70C2BE;
+		z-index: 9900;
+		overflow: hidden;
+	}
+
+}
+
+@media (min-width: 0 ) and (max-width: 767px){
+
+	.gridbox {
+		width: 248px;
+		position: none;
+		padding: 0 0 35px 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	#gridbox01 {
+	    display: none;
+	}
+	
+	#gridbox02 {
+	    display: block;
+	}
+	
+
+}
+
+
+.gridbox .Arrow {
+    width: 0px;
+	height: 0px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent transparent #70C2BE transparent ;
+	position: relative;
+	top: -15px;
+	left: 74px;	
+}
+
+
+.gridbox_Screen {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+	top: 0;
+	background: #FFF;
+	opacity: 0.8;
+	display: none;
+	z-index: 9000;
+}
+
+
+.gridbox_model02_DatumPoint {
+	position: relative;
+}
+
+.gridbox_model02 {
+    width: 276px;
+	box-sizing: border-box;
+	background: #70C2BE;
+	padding: 10px 25px 50px 25px;
+	margin: 0 auto;
+	
+	font-size: 14px;
+	line-height: 28px;
+    font-family: 微軟正黑體, "Microsoft JhengHei";
+    color: #FFF;
+	text-align: left;
+	
+	display: none;  opacity: 1;
+	z-index: 9999;
+	position: absolute;
+	top: -210px;
+	left: -44px;	
+}
+.ShowClose {
+	width: 44px;
+	height: 44px;
+	background: url(images/pg02_pic01.png) no-repeat top right;
+	cursor: pointer;
+	position: relative;
+	top: -60px;
+	left: 208px;
+}
+ 
+
+.gridbox_model02 span.Title {
+    max-width: 270px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 32px;  
+    color: #FFFF66;
+}
+
+.gridbox_model02 img {
+    display: block;
+    margin: 0 auto 5px auto; 
+}
+
+
+

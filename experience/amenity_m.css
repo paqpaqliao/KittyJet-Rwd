@@ -1,0 +1,160 @@
+
+.PageTitleBox {
+	width: 941px;
+	height: 84px;
+	margin: 45px 0 0 0;
+	padding: 29px 0 0 0;
+	text-align: right;
+	background: url(../experience/images/pg04_title.gif) no-repeat;
+}
+
+
+
+/* bookmark -------------------------------------------------------------------------------------------------------------------------- */
+
+.Main_tab li {
+	width: 121px;
+	height: 39px;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+}
+
+.Main_tab .T01 {
+	background: url(../experience/images/pg04_pic01.png) no-repeat;
+}
+.Main_tab .T01.hover, .Main_tab .T01.active {
+	background: url(../experience/images/pg04_pic01_f2.png) no-repeat;
+}
+
+.Main_tab .T02 {
+	background: url(../experience/images/pg04_pic01.png) no-repeat -125px 0;
+}
+.Main_tab .T02.hover, .Main_tab .T02.active  {
+	background: url(../experience/images/pg04_pic01_f2.png) no-repeat -125px 0;
+}
+
+.Main_tab .T03 {
+	background: url(../experience/images/pg04_pic01.png) no-repeat -250px 0;
+}
+.Main_tab .T03.hover, .Main_tab .T03.active {
+	background: url(../experience/images/pg04_pic01_f2.png) no-repeat -250px 0;
+}
+
+
+
+/* bookmark -------------------------------------------------------------------------------------------------------------------------- */
+
+.Second_tab {
+	width: 421px;
+	margin: 0 auto;
+}
+.Second_tab li {
+	width: 101px;
+	height: 41px;
+	margin: 0 1px 0 0;
+	display: inline-block;
+
+	cursor: pointer;
+}
+.Second_tab .T01 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat;
+}
+.Second_tab .T01.hover, .Second_tab .T01.active {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat;
+}
+
+.Second_tab .T02 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat -106px 0;
+}
+.Second_tab .T02.hover, .Second_tab .T02.active  {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat -106px 0;
+}
+
+.Second_tab .T03 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat -212px 0;
+}
+.Second_tab .T03.hover, .Second_tab .T03.active {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat -212px 0;
+}
+
+.Second_tab .T04 {
+	background: url(../experience/images/pg04_pic02.png) no-repeat -318px 0;
+}
+.Second_tab .T04.hover, .Second_tab .T04.active {
+	background: url(../experience/images/pg04_pic02_f2.png) no-repeat -318px 0;
+}
+
+
+
+/* Content ------------------------------------------------------------------------------------------------------------------------------------ */
+
+.Showcase {
+	width: 941px;
+	margin: 0 0 50px 0;
+}
+.Showcase li {
+	width: 300px;
+	height: 300px;
+	margin: 3px 3px 3px 6px;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	
+	font-family: 微軟正黑體, "Microsoft JhengHei";
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.Showcase li img   {
+	width: 300px;
+	height: 300px;
+    -webkit-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.A_HoverBg {
+	width: 260px;
+	height: 260px;
+	top: -280px;
+	left: 20px;
+	
+	position: relative;
+	background-color: rgba(255,255,255,0.6);
+	opacity: 0;
+	
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.Showcase li .A_Text {
+	position: relative;
+    top: -410px;
+	opacity: 0;
+
+    -webkit-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out, top 0.5s ease-out;
+    transition: opacity 0.5s ease-out, top 0.5s ease-out;
+}
+
+.A_Text span {
+	display: block;
+}
+.A_Year {
+	width: 53px;
+	font-size: 15px;
+	line-height: 30px;
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+}
+.A_Name {
+	font-size: 18px;
+	line-height: 30px;
+}
